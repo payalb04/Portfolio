@@ -1,0 +1,194 @@
+body{
+    text-align: center;
+    background-color: rgb(236, 204, 155);
+    width: 100%;
+}
+.Header{
+    font-size: 30px;
+    color: rgb(49, 36, 92);
+    border: 10px solid rgb(91, 88, 88);
+    text-shadow: 10px 10px 10px rgb(56, 32, 8);
+    text-decoration:hotpink;
+    text-decoration: underline;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(240, 251, 200);
+}
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all Ss ease
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+/* Create two columns that float next to each other */
+.column{
+    float:left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    /* Should be removed.
+    Only for demonstration */
+}
+/* Clear floats after the columns */
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(148, 141, 141);
+    color: black;
+    box-shadow: 0 0 5px rgb(94, 86, 86), 0 0 10px rgb(94, 89, 89), 0 0 15px rgb(98, 86, 86);
+    font-weight: bold;
+}
+.card{
+    width: 75% center;
+    text-align: center;
+    box-sizing: 50px;
+    background-color: rgb(51, 25, 25);
+    color: aliceblue;
+}
+h2{
+    font-size: 40px;
+    color: rgb(254, 169, 245);
+    text-shadow: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-family: cursive;
+    color: rgb(137, 135, 135);
+}
+.skills{
+    max-width: 68rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+.skill-header{
+    margin-bottom: 1rem;
+}
+.skills-wrapper img{
+    padding: 1.25rem;
+}
+icon{
+    width: 12rem;
+    height: 12rem;
+}
+.icon-card{
+    background-color: bisque;
+    border-radius: 11px;
+    box-shadow: 0px 3px 10px black;
+    padding: 20px;
+    margin: 10px;
+}
+.row{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8s;
+}
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
+}
+.contact{
+    margin-top: 2rem;
+    border: 2px solid rgb(61, 20, 20);
+
+}
+.contact h2{
+    text-align: center;
+}
+.contact-form-container{
+    max-width: 40rem;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-shadow: 0px 3px 10px black;
+}
+.contact-form-container label{
+    line-height: 3rem;
+    font-weight: bold;
+    color: rgb(52, 6, 16);
+}
+.contact-form-container textarea{
+    min-height: 7rem;
+    font-size: 14px;
+}
+.contact-form-container .input-field{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 2px outset;
+    font-size: 1rem;
+    outline: none;
+}
+.input-field::placeholder{
+    padding: 1rem;
+    color: rgb(21, 13, 2);
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: bisque;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    transition:none
+}
+.submit-btn:hover{
+    background-color: bisque;
+    border: 2px solid black;
+    cursor: pointed;
+}
